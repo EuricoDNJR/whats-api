@@ -4,7 +4,7 @@ Esta aplicação é uma API REST construída com FastAPI que envia e recebe mens
 
 ---
 
-📌 Requisitos
+### 📌 Requisitos
 
 - Python 3.9+
 - Conta de desenvolvedor Meta com número de teste no WhatsApp Cloud API
@@ -12,7 +12,7 @@ Esta aplicação é uma API REST construída com FastAPI que envia e recebe mens
 
 ---
 
-📌 Instalação
+### 📌 Instalação
 
 1. Clone o repositório:
 
@@ -40,7 +40,7 @@ Esta aplicação é uma API REST construída com FastAPI que envia e recebe mens
    uvicorn main:app --reload
    ```
 
-🚀 Rotas disponíveis:
+### 🚀 Rotas disponíveis:
 
 - `POST /send_message`: Envia uma mensagem para um número de telefone específico.
 - `POST /webhook`: Validação inicial do Webhook (usado pelo Meta para confirmação).
@@ -73,9 +73,7 @@ Esta aplicação é uma API REST construída com FastAPI que envia e recebe mens
 
   Depois de configurar o Webhook, você pode testar enviando mensagens para o número do WhatsApp associado à sua conta de desenvolvedor Meta.
 
-Logs:
-
-📝 Logs
+### 📝 Logs
 
 Os logs são salvos em `app/logs/` com as seguintes informações:
 
@@ -87,7 +85,7 @@ Os logs são salvos em `app/logs/` com as seguintes informações:
 
 ---
 
-📚 Documentação:
+### 📚 Documentação:
 
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [WhatsApp Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api)
